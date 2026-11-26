@@ -1,4 +1,4 @@
-# Báo cáo Day 13 — Nguyễn Việt Minh, 2A202604043
+# Báo cáo Day 13 — Nguyễn Viết Minh, 2A202604043
 
 ## 1. Kết luận trước
 - Mã số `2A202604043`, task `D13-2A202604043`. 10 frame: s01f04, s01f36, s02f04, s02f41, s03f17, s03f46, s04f02, s04f46, s05f12, s05f40.
