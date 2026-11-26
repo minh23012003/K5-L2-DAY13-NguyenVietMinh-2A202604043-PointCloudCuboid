@@ -100,7 +100,7 @@ Cảnh báo giữ nguyên: s01f36 #4 và s05f40 #4 ở ngoài 50 m (66,63 m; 58,
 (a) Nhãn 3D đo bằng mét vì model học từ nhãn này phải dự đoán vị trí và kích thước thật của vật quanh xe để xe tính khoảng cách phanh, tránh va chạm; pixel phụ thuộc camera và khoảng cách nên không cho biết vật thật to bao nhiêu hay cách bao xa. Vật thưa điểm cần quy tắc riêng (vẽ khi thấy khoảng 15–20% thể tích, không thì bỏ và ghi LOW_VISIBILITY) vì nếu mỗi người đoán một kiểu, model sẽ học nhãn không nhất quán: vừa học vẽ hộp ở nơi gần như không có điểm (báo động giả), vừa học bỏ sót vật xa.
 
 (b) Dùng AI:
-- Công cụ: Claude Code (trong VS Code). Coach cho phép dùng AI viết báo cáo.
+- Công cụ: Claude Code (trong VS Code)
 - Việc chính: tóm tắt đề và guideline; chạy các lệnh `scripts/lab.py`, `check_submission.py`; đọc bảng A và phiếu tự kiểm để tìm cuboid nghi sai kích thước, đáy, khoảng cách; điền số từ bảng A và soạn câu chữ báo cáo từ câu trả lời của tôi, bảng A và tài liệu của đề. AI không xem ảnh camera hay dữ liệu VF.
 - Cách dùng kết quả: tôi tự vẽ và sửa mọi cuboid trên CVAT, tự chụp ảnh, trả lời các câu hỏi về quan sát; tôi đọc lại và chịu trách nhiệm toàn bộ báo cáo.
 
